@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <!--<img alt="Vue logo" src="./assets/logo.png">-->
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <game/>
   </div>
 </template>
-
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import game from './components/game'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    game
   }
 }
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
